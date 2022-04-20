@@ -1,0 +1,941 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Hurricane&family=Playfair+Display:ital@0;1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script&family=Hurricane&family=Playfair+Display:ital@0;1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(236, 228, 228, 0.6),rgba(170, 155, 155, 0.6)), url(./spoon.jpeg) center/cover;
+    background-attachment: fixd;
+}
+
+.header{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+  
+}
+
+.header h1{
+    font-size: 60px;
+    text-transform: capitalize;
+    margin-left: 30px;
+}
+
+.header h1 a{
+    color: #000;
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.nav-link{
+    display: block;
+    display: flex;
+}
+
+
+.header ul li{
+   list-style: none;
+   display: inline-block;
+   margin: 30px 90px 0 10px;
+   
+}
+
+.header ul li a{
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.header ul li a:hover
+{
+    color: rgb(134, 123, 123);
+}
+
+.menu{
+ visibility: hidden;
+}
+.menu #bars{
+    color: #fff;
+    font-size: 25px;
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+}
+
+.text p{
+    text-transform: uppercase;
+    
+}
+
+.text h1{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 70px;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+}
+
+
+.text p{
+    margin-top: 80px;
+}
+.text p a{
+    background-color: #000;
+    text-decoration: none;
+    color: #fff;
+    padding: 20px  37px;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: 0.5s;
+}
+
+.text p a:hover{
+    background: #fff;
+    color: #000;
+}
+
+.page-two{
+    margin-top: 650px;
+    text-align: center;
+}
+
+.page-two p{
+   text-transform: uppercase;
+}
+
+.page-two h1{
+    font-family: 'Abril Fatface', cursive;
+    text-transform: capitalize;
+    margin-top: 15px;
+    font-size: 50px;
+    word-spacing: 10px;
+    letter-spacing: 3px;
+}
+
+.page-two div{
+  margin-top: 25px;
+  line-height: 30px;
+  color: dimgrey;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+.cardbox1{
+    display: flex;
+    margin-top: 70px;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+
+
+.card{
+    width: 370px;
+    height: 400px;
+    margin: 15px;
+    border: 1px solid gainsboro;
+    background: #fff;
+
+}
+.cardbox1 .card1{
+    background: url(./bread.jpeg);
+    background-position: center;
+}
+
+
+.cardbox1 .card2{
+    background: url(./green.webp);
+   background-position: center;
+}
+
+.cardbox1 .card3{
+    background: url(./tust.jpeg);
+    
+}
+
+
+
+.lorem{
+    margin-top: 20px;
+    line-height: 25px;
+    color: grey;
+}
+
+.lorem1{
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.image{
+    width: 100%;
+    height: 70%;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.5)),url(./hand.jpeg) center/cover;
+    background-attachment: fixed;
+    margin-top: 70px;
+    padding-bottom: 100px;
+    
+}
+
+.image img{
+    width: 120px;
+    margin-top: 90px;
+    margin-left: 600px;
+    border-radius: 50%;
+    height: 120px;
+}
+
+.image p{
+    margin-top: 30px;
+    text-align: center;
+    color: #fff;
+    line-height: 27px;
+    font-size: 18px;
+}
+
+.page-three{
+    background-color: #fff;
+}
+
+.page-three .image-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.image-1 img{
+ height: 400px;
+ width: 400px;
+ margin-top: 40px;
+ margin-left: -100px
+}
+
+.image-1 .text1{
+    margin-top: 90px;
+}
+
+.text1 p{
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+.text1 h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 15px;
+}
+
+.text1 div{
+    margin-top: 16px;
+    color: grey;
+}
+
+.text1 button{
+    margin-top: 30px;
+    padding: 18px 50px;
+    border: none;
+    font-size: 11px;
+    cursor: pointer;
+    width: 200px;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.text1 button:hover{
+width: 300px;
+background-color: #000;
+color: #fff;
+}
+
+
+
+.page-three .image-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.image-2 img{
+ height: 400px;
+ width: 430px;
+ margin-top: 40px;
+ margin-left: -100px
+}
+
+.image-2 .text1{
+    margin-top: 90px;
+}
+
+.text1 p{
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+.text1 h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 15px;
+}
+
+.text1 div{
+    margin-top: 16px;
+    color: grey;
+}
+
+.text1 button{
+    margin-top: 30px;
+    padding: 18px 50px;
+    border: none;
+    font-size: 11px;
+    cursor: pointer;
+    width: 200px;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.text1 button:hover{
+width: 300px;
+background-color: #000;
+color: #fff;
+}
+
+
+
+.page-three .image-3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.image-3 img{
+ height: 400px;
+ width: 430px;
+ margin-top: 40px;
+ margin-left: -100px
+}
+
+.image-3 .text1{
+    margin-top: 90px;
+}
+
+.text1 p{
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+.text1 h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 15px;
+}
+
+.text1 div{
+    margin-top: 16px;
+    color: grey;
+}
+
+.text1 button{
+    margin-top: 30px;
+    padding: 18px 50px;
+    border: none;
+    font-size: 11px;
+    cursor: pointer;
+    width: 200px;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.text1 button:hover{
+width: 300px;
+background-color: #000;
+color: #fff;
+}
+
+
+.page-three .image-4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.image-4 img{
+ height: 400px;
+ width: 430px;
+ margin-top: 40px;
+ margin-left: -100px
+}
+
+.image-4 .text1{
+    margin-top: 90px;
+}
+
+.text1 p{
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+.text1 h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 15px;
+}
+
+.text1 div{
+    margin-top: 16px;
+    color: grey;
+}
+
+.text1 button{
+    margin-top: 30px;
+    padding: 18px 50px;
+    border: none;
+    font-size: 11px;
+    cursor: pointer;
+    width: 200px;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.text1 button:hover{
+width: 300px;
+background-color: #000;
+color: #fff;
+}
+
+.page-four{
+    margin-top: 90px;
+}
+
+
+.cardbox2{
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.card2{
+    width: 320px;
+    height: 370px;
+    margin: 10px;
+    
+}
+
+.cardbox2 .card-1{
+ background: url(./pot.jpeg);
+ background-position: center;
+ transition: 0.5s;
+}
+
+
+.cardbox2 .card-2{
+    background:url(./food.jpeg);
+    transition: 0.5s;
+   }
+   
+
+.cardbox2 .card-3{
+    background: url(./glass.webp);
+    transition: 0.5s;
+   }
+
+   
+.cardbox2 .card-4{
+    background: url(./flat.jpeg);
+    background-position:right ;
+    transition: 0.5s;
+   }
+   
+.card-1:hover{
+     background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(./pot.jpeg);
+}
+
+  
+.card-2:hover{
+    background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(./food.jpeg);
+    background-position: center;
+}
+  
+.card-3:hover{
+    background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(./glass.webp);
+    background-position: right;
+}
+  
+.card-4:hover{
+    background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(./flat.jpeg);
+}
+
+.page-five{
+    margin-top: 70px;
+    text-align: center;
+}
+
+.page-five p{
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.page-five h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    font-size: 50px;
+}
+
+.page-five div{
+    line-height: 27px;
+    color: rgb(105, 94, 94);
+    font-weight: lighter;
+    margin-top: 20px;
+}
+
+.rect{
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+.rect input{
+    margin-left: 10px;
+    padding: 20px 90px;
+    border: 2px solid rgb(224, 219, 219);
+}
+
+.btn{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.btn a{
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color:  #e7e4f8;
+    color: #000;
+    padding: 15px 43px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+
+.btn p{
+    margin-top: 30px;
+    text-transform: uppercase;
+   color: #8d8c96;
+   font-size: 11px;
+}
+.btn a:hover{
+    background: black;
+    color: #fff;
+}
+
+.page-six{
+    margin-top: 100px;
+    background: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+    
+}
+
+
+.text2 {
+    padding-top: 100px;
+    margin-left: 120px;
+    font-family: sans-serif;
+}
+
+.text2 p{
+    margin-left: 60px;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.text2 div{
+    margin-top: 40px;
+    color: #e1dff1;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.text3{
+   margin-top: 80px;
+   
+}
+.text3 h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+.text3 p{
+    margin-top: 40px;
+    color: #e1dff1;
+    font-size: 15px;
+    line-height: 25px;
+}
+.text3 div{
+  margin-top: 15px;
+  line-height: 25px;
+  font-size: 15px;
+  color: #e1dff1;
+}
+
+ .copy{
+    margin-top: 70px;
+    color: #73737a;
+    font-size: 15px;
+   margin-right: 200px;
+}
+
+
+
+
+    
+@media (max-width:960px){
+
+
+    .header h1{
+        font-size: 60px;
+        text-transform: capitalize;
+        margin-left: 15px;
+    }
+
+.header h1 a{
+    color: #000;
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+
+.image img{
+    width: 120px;
+    margin-top: 90px;
+    margin-left: 500px;
+    border-radius: 50%;
+    height: 120px;
+}
+
+}
+
+
+@media (max-width:720px){
+
+.text p{
+    text-transform: uppercase;
+    
+}
+
+.text h1{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 65px;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+    margin-top: 10px;
+}
+
+.text p{
+    margin-top: 100px;
+}
+.text p a{
+    background-color: #000;
+    text-decoration: none;
+    color: #fff;
+    padding: 20px  37px;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: 0.5s;
+}
+
+.text p a:hover{
+    background: #fff;
+    color: #000;
+}
+}
+
+@media (max-width:740px){
+
+.image img{
+    width: 120px;
+    margin-top: 90px;
+    margin-left: 350px;
+    border-radius: 50%;
+    height: 120px;
+}
+
+}
+
+
+
+@media (max-width:668px){
+
+    .text p{
+        text-transform: uppercase;
+        
+    }
+        
+
+    .text h1{
+        font-family: 'Abril Fatface', cursive;
+        font-size: 60px;
+        text-transform: capitalize;
+        letter-spacing: 4px;
+        margin-top: 10px;
+    }
+    
+    .text p{
+        margin-top: 100px;
+    }
+    .text p a{
+        background-color: #000;
+        text-decoration: none;
+        color: #fff;
+        padding: 20px  37px;
+        text-transform: uppercase;
+        font-size: 14px;
+        transition: 0.5s;
+    }
+    
+    .text p a:hover{
+        background: #fff;
+        color: #000;
+    }
+
+
+.page-two{
+    margin-top: 600px;
+    text-align: center;
+}
+    }
+
+@media (max-width:624px){
+
+    .text h1{
+        font-family: 'Abril Fatface', cursive;
+        font-size: 55px;
+        text-transform: capitalize;
+        letter-spacing: 4px;
+        margin-top: 10px;
+    }
+
+
+.page-two{
+    margin-top: 550px;
+    text-align: center;
+}
+}
+
+
+
+@media (max-width:660px){
+
+    .image img{
+        width: 120px;
+        margin-top: 90px;
+        margin-left: 300px;
+        border-radius: 50%;
+        height: 120px;
+    }
+    
+    }
+
+    @media (max-width:600px){
+
+        .image img{
+            width: 120px;
+            margin-top: 90px;
+            margin-left: 270px;
+            border-radius: 50%;
+            height: 120px;
+        }
+        .text h1{
+            font-family: 'Abril Fatface', cursive;
+            font-size: 50px;
+            text-transform: capitalize;
+            letter-spacing: 4px;
+            margin-top: 10px;
+        }
+
+        .page-two h1{
+            font-family: 'Abril Fatface', cursive;
+            text-transform: capitalize;
+            margin-top: 15px;
+            font-size: 45px;
+            word-spacing: 10px;
+            letter-spacing: 3px;
+        }
+        
+        }
+
+
+        @media (max-width:550px){
+
+            .image img{
+                width: 120px;
+                margin-top: 90px;
+                margin-left: 240px;
+                border-radius: 50%;
+                height: 120px;
+            }
+            
+            }
+
+@media (max-width:535px){
+    .text h1{
+        font-family: 'Abril Fatface', cursive;
+        font-size: 45px;
+        text-transform: capitalize;
+        letter-spacing: 4px;
+        margin-top: 10px;
+    }
+}
+
+           
+@media (max-width:500px){
+
+    .image img{
+        width: 120px;
+        margin-top: 90px;
+        margin-left: 210px;
+        border-radius: 50%;
+        height: 120px;
+    }
+    .text h1{
+        font-family: 'Abril Fatface', cursive;
+        font-size: 40px;
+        text-transform: capitalize;
+        letter-spacing: 4px;
+        margin-top: 10px;
+    }
+    
+
+    .page-two h1{
+        font-family: 'Abril Fatface', cursive;
+        text-transform: capitalize;
+        margin-top: 15px;
+        font-size: 40px;
+        word-spacing: 10px;
+        letter-spacing: 3px;
+    }
+    } 
+
+    @media (max-width:480px){
+        .text h1{
+            font-family: 'Abril Fatface', cursive;
+            font-size: 35px;
+            text-transform: capitalize;
+            letter-spacing: 4px;
+            margin-top: 10px;
+        }
+    }
+
+
+    @media (max-width:477px){
+        .text h1{
+            font-family: 'Abril Fatface', cursive;
+            font-size: 40px;
+            text-transform: capitalize;
+            letter-spacing: 4px;
+            margin-top: 10px;
+        }
+        .text p{
+            font-size: 15px;
+            margin-top: 20px;
+        }
+        .text{
+            margin-top: 70px;
+
+
+        }
+
+        .header ul li{
+     margin-left: 150px;
+        }
+
+        .text p{
+            margin-top: 90px;
+        }
+
+
+.page-two{
+    margin-top: 500px;
+    text-align: center;
+}
+
+
+.page-two h1{
+    font-family: 'Abril Fatface', cursive;
+    text-transform: capitalize;
+    margin-top: 15px;
+    font-size: 40px;
+    word-spacing: 10px;
+    letter-spacing: 3px;
+}
+    }
+
+    @media (max-width:450px){
+
+        .image img{
+            width: 120px;
+            margin-top: 90px;
+            margin-left: 180px;
+            border-radius: 50%;
+            height: 120px;
+        }
+        .text p{
+            margin-top: 90px;
+        }
+
+        .page-two h1{
+            font-family: 'Abril Fatface', cursive;
+            text-transform: capitalize;
+            margin-top: 15px;
+            font-size: 36px;
+            word-spacing: 10px;
+            letter-spacing: 3px;
+        }
+        }
+
+@media (max-width:420px){
+
+    .text p{
+        margin-top: 90px;
+    }
+
+
+.page-two{
+    margin-top: 450px;
+    text-align: center;
+}
+}
+
+        @media (max-width:410px){
+
+            .header ul li{
+                margin-left: 100px;
+                   } 
+
+             
+    .text p{
+        margin-top: 80px;
+    }      
+        }
+    
